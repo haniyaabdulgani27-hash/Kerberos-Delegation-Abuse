@@ -376,15 +376,4 @@ The investigation should focus on identifying the modified object, validating th
 
 The primary lesson is that security alerts must be interpreted in context. A reliable SOC conclusion requires evidence connecting the configuration change to suspicious authentication and, where applicable, unauthorized access or persistence.
 
-## 10. References
 
-1. MITRE ATT&CK — Steal or Forge Kerberos Tickets: [https://attack.mitre.org/techniques/T1558/](https://attack.mitre.org/techniques/T1558/)
-2. MITRE ATT&CK — Account Manipulation: [https://attack.mitre.org/techniques/T1098/](https://attack.mitre.org/techniques/T1098/)
-3. MITRE ATT&CK — Domain Policy Modification: [https://attack.mitre.org/techniques/T1484/](https://attack.mitre.org/techniques/T1484/)
-4. Wazuh Documentation: [https://documentation.wazuh.com/](https://documentation.wazuh.com/)
-5. Sigma Detection Rules: [https://sigmahq.io/](https://sigmahq.io/)
-6. CISA: [https://www.cisa.gov/](https://www.cisa.gov/)
-
----
-
-**Report status:** Initial investigation plan prepared. Findings and final incident classification remain subject to validation against original telemetry and authorized environment evidence.
